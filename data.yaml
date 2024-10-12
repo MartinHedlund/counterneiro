@@ -1,0 +1,13 @@
+train: ../dataset/WaterMeter/images/train
+val: ../dataset/WaterMeter/images/val
+test: ../dataset/WaterMeter/images/val
+
+nc: 2
+names: ['counters', 'value']
+
+roboflow:
+  workspace: matrinhedlund
+  project: -ountersod
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/matrinhedlund/-ountersod/dataset/2
